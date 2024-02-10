@@ -19,7 +19,7 @@ const StudentProfile = () => {
                     <div className="flex flex-col md:flex-row justify-center gap-8 mt-8 md:mt-16" key={course.id}>
                         <img
                             className="w-full md:w-1/3 h-auto rounded-lg"
-                            src={`https://deltaeducation.onrender.com/${course.thumbnail}`}
+                            src={`https://deltaeducation.onrender.com/assets/${course.thumbnail}`}
                             alt={course.name}
                         />
 
