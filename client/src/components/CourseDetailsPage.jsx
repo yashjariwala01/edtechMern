@@ -24,7 +24,7 @@ const CourseDetailsPage = () => {
   return (
     <div>
        {courseDetail && ( <div className='container flex flex-col justify-center gap-8 mt-16 sm:flex-row'>
-            <img className='w-full h-[30%] md:w-[45%] shadow-2xl' src={`http://localhost:8001/assets/${courseDetail.thumbnail}`} alt="" />
+            <img className='w-full h-[30%] md:w-[45%] shadow-2xl' src={`https://deltaeducation.onrender.com/assets/${courseDetail.thumbnail}`} alt="" />
             <div style={{padding:'10px'}}>
             <h2 className='text-2xl italic gap-2'> {courseDetail.name}</h2>
             <hr className='border bottom-8 border-gray-500 '/>

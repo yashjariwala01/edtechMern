@@ -23,7 +23,7 @@ export const fetchFailure =(error)=>{
 export const fetchCourses =()=>{
     return (dispatch)=>{
         dispatch(fetchRequest())
-        fetch('http://localhost:8001/')
+        fetch('https://deltaeducation.onrender.com')
         .then(res=> res.json())
         .then(data=> {
             dispatch(fetchSuccess(data))

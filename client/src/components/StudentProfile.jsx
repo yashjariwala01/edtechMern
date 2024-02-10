@@ -2,7 +2,6 @@ import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css'; 
-import { MdIncompleteCircle } from "react-icons/md";
 import { toggleCourseCompletion } from '../redux/Actions/detailActions'; // Assuming you have an action creator function called toggleCourseCompletion
 
 const StudentProfile = () => {
@@ -20,7 +19,7 @@ const StudentProfile = () => {
                     <div className="flex flex-col md:flex-row justify-center gap-8 mt-8 md:mt-16" key={course.id}>
                         <img
                             className="w-full md:w-1/3 h-auto rounded-lg"
-                            src={`http://localhost:8001/assets/${course.thumbnail}`}
+                            src={`https://deltaeducation.onrender.com/${course.thumbnail}`}
                             alt={course.name}
                         />
 

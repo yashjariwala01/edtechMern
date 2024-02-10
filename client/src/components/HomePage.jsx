@@ -64,7 +64,7 @@ function HomePage() {
                                 className="bg-white border p-3 shadow-lg border-black rounded cursor-pointer transition duration-300 transform hover:scale-105"
                                 onClick={() => handleClick(course)}
                             >
-                                <img className="w-full h-48 object-cover mb-4" src={`http://localhost:8001/assets/${course.thumbnail}`} alt={course.name} />
+                                <img className="w-full h-48 object-cover mb-4" src={`https://deltaeducation.onrender.com/assets/${course.thumbnail}`} alt={course.name} />
                                 <div>
                                     <p className="text-lg font-semibold">{course.name}</p>
                                     <p className="text-gray-600">Instructor: {course.instructor}</p>
